@@ -186,8 +186,8 @@ export default function HomePage() {
     description:
       "TrailTreeTrip provides professional visa assistance, passport services, flight booking, hotel reservations, travel insurance and customized holiday packages in Bengaluru.",
     url: "https://www.trailtreetrip.com",
-    logo: "https://www.trailtreetrip.com/trailtreetrip-logo.png",
-    image: "https://www.trailtreetrip.com/trailtreetrip-logo.png",
+    logo: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
+image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
     telephone: "+919663742708",
     email: "info@trailtreetrip.com",
     priceRange: "₹₹",
@@ -251,7 +251,7 @@ export default function HomePage() {
         <div className="container-shell flex h-20 items-center justify-between">
           <a href="#home" className="flex items-center gap-3" aria-label="TrailTreeTrip home">
          <Image
-  src="/trailtreetrip-logo.png" alt="TrailTreeTrip Travel & Visa Company" width={64} height={64} priority
+  src="/logo/trailtreetrip-logo.png" alt="TrailTreeTrip Travel & Visa Company" width={64} height={64} priority
   className="rounded-xl h-16 w-16 object-contain"/>
           
             <span>
