@@ -167,7 +167,7 @@ export default function HomePage() {
   const email = process.env.NEXT_PUBLIC_EMAIL || "info@trailtreetrip.com";
 
   const address =
-    "11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1, Kadabisanahalli, Bengaluru, Karnataka 560087";
+    "11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1, Kadabeesanahalli, Bengaluru, Karnataka 560087";
 
   const googleMaps =
     "https://www.google.com/maps/place/TrailTreeTrip/@12.9437078,77.6958614,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae13a7ca8dc0d3:0xa28c075876ec7aa3!8m2!3d12.9437078!4d77.6958614!16s%2Fg%2F11npwdb6d4";
@@ -194,7 +194,7 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
     address: {
       "@type": "PostalAddress",
       streetAddress:
-        "11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1, Kadabisanahalli",
+        "11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1, Kadubeesanahalli",
       addressLocality: "Bengaluru",
       addressRegion: "Karnataka",
       postalCode: "560087",
@@ -520,7 +520,7 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
             <div className="mt-9 space-y-4 text-slate-200">
               <p className="flex gap-3"><MessageCircle className="text-teal-300" /> {phone}</p>
               <p className="flex gap-3"><Globe2 className="text-teal-300" /> {email}</p>
-              <p className="flex gap-3"><MapPin className="text-teal-300" /> 11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1, Kadabisanahalli, Bengaluru, Karnataka 560087</p>
+              <p className="flex gap-3"><MapPin className="text-teal-300" /> 11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1, Kadubeesanahalli, Bengaluru, Karnataka 560087</p>
               <a
   href={googleMaps}
   target="_blank"
@@ -629,7 +629,13 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
         <div className="container-shell grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-3">
-              <span className="grid size-12 place-items-center rounded-2xl bg-gradient-to-br from-teal-500 to-cyan-800 text-sm font-black text-white">TTT</span>
+            <Image
+  src="/logo/trailtreetrip-logo.png"
+  alt="TrailTreeTrip Travel & Visa Company"
+  width={64}
+  height={64}
+  className="h-16 w-16 rounded-xl bg-white object-contain"
+/>
               <strong className="text-xl text-white">TrailTreeTrip</strong>
             </div>
             <p className="mt-5 text-sm leading-7">Visa assistance, passports, flights, hotels, insurance and holidays from Bengaluru.</p>
@@ -714,7 +720,7 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
       rel="noopener noreferrer"
     >
       11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1,
-      Kadabisanahalli, Bengaluru, Karnataka 560087
+      Kadubeesanahalli, Bengaluru, Karnataka 560087
     </a>
   </div>
 </div>
