@@ -251,8 +251,13 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
         <div className="container-shell flex h-20 items-center justify-between">
           <a href="#home" className="flex items-center gap-3" aria-label="TrailTreeTrip home">
          <Image
-  src="/logo/trailtreetrip-logo.png" alt="TrailTreeTrip Travel & Visa Company" width={64} height={64} priority
-  className="rounded-xl h-16 w-16 object-contain"/>
+  src="/logo/trailtreetrip-logo.png"
+  alt="TrailTreeTrip Travel & Visa Company"
+  width={64}
+  height={64}
+  priority
+  className="h-16 w-16 rounded-xl object-contain"
+/>
           
             <span>
               <strong className="block text-xl text-slate-900">TrailTreeTrip</strong>
