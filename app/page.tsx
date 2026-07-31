@@ -546,7 +546,7 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
             <div className="mt-9 space-y-4 text-slate-200">
               <p className="flex gap-3"><MessageCircle className="text-teal-300" /> {phone}</p>
               <p className="flex gap-3"><Globe2 className="text-teal-300" /> {email}</p>
-              <p className="flex gap-3"><MapPin className="text-teal-300" /> 11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1,Kadabeesanahalli , Bengaluru, Karnataka 560087</p>
+              <p className="flex gap-3"><MapPin className="text-teal-300" /> 11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1,Kadubeesanahalli , Bengaluru, Karnataka 560087</p>
               <a
   href={googleMaps}
   target="_blank"
