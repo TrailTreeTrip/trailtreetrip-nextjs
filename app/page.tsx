@@ -191,6 +191,26 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
     telephone: "+919663742708",
     email: "info@trailtreetrip.com",
     priceRange: "₹₹",
+    openingHoursSpecification: [
+  {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+    ],
+    opens: "09:00",
+    closes: "18:00",
+  },
+  {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: "Saturday",
+    opens: "09:00",
+    closes: "16:00",
+  },
+],
     address: {
       "@type": "PostalAddress",
       streetAddress:
@@ -200,6 +220,11 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
       postalCode: "560087",
       addressCountry: "IN",
     },
+    geo: {
+  "@type": "GeoCoordinates",
+  latitude: 12.9437078,
+  longitude: 77.6958614,
+},
     areaServed: [
       {
         "@type": "City",
@@ -215,8 +240,9 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
       },
     ],
     sameAs: [
-      "https://www.facebook.com/share/16rVYDWuZ4/",
-      "https://www.instagram.com/trailtreetrip",
+      "https://www.facebook.com/profile.php?id=61588764082267",
+      "https://www.instagram.com/trailtreetrip/",
+      
     ],
     contactPoint: {
       "@type": "ContactPoint",
@@ -505,10 +531,7 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
         </div>
       </section>
 
-      <section
-  id="enquiry"
-  className="section-space scroll-mt-24 bg-gradient-to-br from-slate-950 to-cyan-900 text-white"
->
+      <section id="enquiry" className="section-space bg-gradient-to-br from-slate-950 to-cyan-900 text-white">
         <div className="container-shell grid gap-14 lg:grid-cols-[.85fr_1.15fr]">
           <div>
             <span className="eyebrow text-teal-300">Start Your Journey</span>
@@ -523,7 +546,7 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
             <div className="mt-9 space-y-4 text-slate-200">
               <p className="flex gap-3"><MessageCircle className="text-teal-300" /> {phone}</p>
               <p className="flex gap-3"><Globe2 className="text-teal-300" /> {email}</p>
-              <p className="flex gap-3"><MapPin className="text-teal-300" /> 11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1, Kadubeesanahalli, Bengaluru, Karnataka 560087</p>
+              <p className="flex gap-3"><MapPin className="text-teal-300" /> 11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1,Kadabeesanahalli , Bengaluru, Karnataka 560087</p>
               <a
   href={googleMaps}
   target="_blank"
