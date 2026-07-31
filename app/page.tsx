@@ -505,7 +505,10 @@ image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
         </div>
       </section>
 
-      <section id="enquiry" className="section-space bg-gradient-to-br from-slate-950 to-cyan-900 text-white">
+      <section
+  id="enquiry"
+  className="section-space scroll-mt-24 bg-gradient-to-br from-slate-950 to-cyan-900 text-white"
+>
         <div className="container-shell grid gap-14 lg:grid-cols-[.85fr_1.15fr]">
           <div>
             <span className="eyebrow text-teal-300">Start Your Journey</span>
