@@ -19,32 +19,32 @@ import {
 import EnquiryForm from "@/components/EnquiryForm";
 
 export const metadata: Metadata = {
-  title: "Visa Consultant in Marathahalli, Bengaluru",
+  title: "Visa Consultant in Bellandur, Bengaluru",
   description:
-    "TrailTreeTrip provides tourist visa, business visa, family visit visa, passport, flight, hotel, travel insurance and holiday package assistance for customers in Marathahalli, Bengaluru.",
+    "TrailTreeTrip provides tourist visa, business visa, family visit visa, passport, flight, hotel, travel insurance and holiday package assistance for customers in Bellandur, Bengaluru.",
 
   keywords: [
-    "visa consultant Marathahalli",
-    "travel agency Marathahalli",
-    "passport services Marathahalli",
-    "visa consultant near Marathahalli",
-    "travel agency near Marathahalli",
-    "Schengen visa consultant Marathahalli",
-    "Singapore visa Marathahalli",
-    "Dubai visa Marathahalli",
-    "flight booking Marathahalli",
-    "holiday packages Marathahalli",
+    "visa consultant Bellandur",
+    "travel agency Bellandur",
+    "passport services Bellandur",
+    "visa consultant near Bellandur",
+    "travel agency near Bellandur",
+    "Schengen visa consultant Bellandur",
+    "Singapore visa Bellandur",
+    "Dubai visa Bellandur",
+    "flight booking Bellandur",
+    "holiday packages Bellandur",
   ],
 
   alternates: {
-    canonical: "/locations/marathahalli",
+    canonical: "/locations/bellandur",
   },
 
   openGraph: {
-    title: "Visa Consultant in Marathahalli | TrailTreeTrip",
+    title: "Visa Consultant in Bellandur | TrailTreeTrip",
     description:
-      "Professional visa, passport and travel assistance for customers in Marathahalli, Bengaluru.",
-    url: "https://www.trailtreetrip.com/locations/marathahalli",
+      "Professional visa, passport and travel assistance for customers in Bellandur, Bengaluru.",
+    url: "https://www.trailtreetrip.com/locations/bellandur",
     siteName: "TrailTreeTrip",
     locale: "en_IN",
     type: "website",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
         url: "/logo/trailtreetrip-logo.png",
         width: 1200,
         height: 1200,
-        alt: "TrailTreeTrip Visa Consultant in Marathahalli",
+        alt: "TrailTreeTrip Visa Consultant in Bellandur",
       },
     ],
   },
@@ -100,14 +100,14 @@ const services = [
 
 const faqs = [
   {
-    question: "Where is TrailTreeTrip located near Marathahalli?",
+    question: "Where is TrailTreeTrip located near Bellandur?",
     answer:
-      "TrailTreeTrip is located at 11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1, Kadubeesanahalli, Bengaluru, Karnataka 560087, conveniently accessible from Marathahalli.",
+      "TrailTreeTrip is located at 11th Floor, No. 32/2, Prestige Tech Platina, Innov8, 34/1, Kadubeesanahalli, Bengaluru, Karnataka 560087, conveniently accessible from Bellandur.",
   },
   {
-    question: "Do you provide visa assistance for customers in Marathahalli?",
+    question: "Do you provide visa assistance for customers in Bellandur?",
     answer:
-      "Yes. Customers from Marathahalli and nearby areas can contact TrailTreeTrip for tourist, business and family visit visa assistance, passport support and complete travel services.",
+      "Yes. Customers from Bellandur and nearby areas can contact TrailTreeTrip for tourist, business and family visit visa assistance, passport support and complete travel services.",
   },
   {
     question: "Which visa services are available?",
@@ -145,7 +145,7 @@ const localBusinessSchema = {
       image: "https://www.trailtreetrip.com/logo/trailtreetrip-logo.png",
 
       description:
-        "TrailTreeTrip provides visa, passport, flight, hotel, travel insurance and holiday package assistance for customers in Marathahalli and nearby Bengaluru areas.",
+        "TrailTreeTrip provides visa, passport, flight, hotel, travel insurance and holiday package assistance for customers in Bellandur and nearby Bengaluru areas.",
 
       telephone: "+919663742708",
       email: "info@trailtreetrip.com",
@@ -189,12 +189,12 @@ const localBusinessSchema = {
       ],
 
       areaServed: [
-        "Marathahalli",
-        "Kadubeesanahalli",
         "Bellandur",
-        "Brookefield",
-        "Mahadevapura",
-        "Whitefield",
+        "Kadubeesanahalli",
+        "Marathahalli",
+        "Devarabisanahalli",
+        "Sarjapur Road",
+        "HSR Layout",
         "Bengaluru",
       ],
 
@@ -218,7 +218,7 @@ const localBusinessSchema = {
   ],
 };
 
-export default function MarathahalliPage() {
+export default function BellandurPage() {
   const phone = "+91 96637 42708";
   const whatsapp = "919663742708";
   const email = "info@trailtreetrip.com";
@@ -293,13 +293,13 @@ export default function MarathahalliPage() {
               </span>
 
               <h1 className="mt-5 max-w-3xl font-serif text-5xl font-bold leading-tight text-slate-950 sm:text-6xl">
-                Visa Consultant and Travel Agency in Marathahalli
+                Visa Consultant and Travel Agency in Bellandur
               </h1>
 
               <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-600">
                 TrailTreeTrip provides professional visa assistance, passport
                 support, flights, hotels, travel insurance and customized
-                holiday packages for customers in Marathahalli, Bengaluru.
+                holiday packages for customers in Bellandur, Bengaluru.
               </p>
 
               <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -310,7 +310,7 @@ export default function MarathahalliPage() {
 
                 <a
                   href={`https://wa.me/${whatsapp}?text=${encodeURIComponent(
-                    "Hello TrailTreeTrip, I need visa or travel assistance in Marathahalli.",
+                    "Hello TrailTreeTrip, I need visa or travel assistance in Bellandur.",
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -344,7 +344,7 @@ export default function MarathahalliPage() {
 
               <div className="relative rounded-[2rem] bg-slate-950 p-8 text-white shadow-2xl sm:p-10">
                 <span className="text-xs font-extrabold uppercase tracking-[0.2em] text-amber-400">
-                  TrailTreeTrip – Serving Marathahalli
+                  TrailTreeTrip – Serving Bellandur
                 </span>
 
                 <h2 className="mt-4 font-serif text-3xl font-bold sm:text-4xl">
@@ -405,7 +405,7 @@ export default function MarathahalliPage() {
               <span className="eyebrow">Our Services</span>
 
               <h2>
-                Visa, passport and travel services for Marathahalli
+                Visa, passport and travel services for Bellandur
               </h2>
 
               <p>
@@ -449,24 +449,25 @@ export default function MarathahalliPage() {
               <span className="eyebrow">Local Travel Support</span>
 
               <h2 className="heading-large mt-4">
-                Convenient assistance for Marathahalli travellers
+                Convenient assistance for Bellandur travellers
               </h2>
 
               <p className="mt-5 leading-8 text-slate-600">
-                Customers from Marathahalli can conveniently access
+                Customers from Bellandur can conveniently access
                 TrailTreeTrip&apos;s visa and travel assistance from our nearby
-                Kadubeesanahalli office. We also serve Bellandur, Brookefield,
-                Mahadevapura, Whitefield and surrounding East Bengaluru areas.
+                Kadubeesanahalli office. We also serve Marathahalli,
+                Devarabisanahalli, Sarjapur Road, HSR Layout and surrounding
+                East and South Bengaluru areas.
               </p>
 
               <div className="mt-7 grid gap-3 sm:grid-cols-2">
                 {[
-                  "Marathahalli",
-                  "Kadubeesanahalli",
                   "Bellandur",
-                  "Brookefield",
-                  "Mahadevapura",
-                  "Whitefield",
+                  "Kadubeesanahalli",
+                  "Marathahalli",
+                  "Devarabisanahalli",
+                  "Sarjapur Road",
+                  "HSR Layout",
                 ].map((location) => (
                   <div
                     key={location}
@@ -486,7 +487,7 @@ export default function MarathahalliPage() {
                 height="460"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="TrailTreeTrip office near Marathahalli"
+                title="TrailTreeTrip office near Bellandur"
                 className="w-full"
               />
             </div>
@@ -584,7 +585,7 @@ export default function MarathahalliPage() {
 
                 <p className="flex items-center gap-3">
                   <MapPin className="text-teal-300" />
-                  Serving Marathahalli from our Kadubeesanahalli office
+                  Serving Bellandur from our Kadubeesanahalli office
                 </p>
               </div>
             </div>
