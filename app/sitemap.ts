@@ -17,10 +17,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-    url: "https://www.trailtreetrip.com/locations/marathahalli",
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 0.9,
-},
+      url: `${baseUrl}/locations/marathahalli`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/locations/bellandur`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
   ];
 }
